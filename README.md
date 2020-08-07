@@ -1,15 +1,15 @@
-# COVID-19 Spread Prediction in Pakistan
+# COVID-19 Spread Prediction in Pakistan using AutoRegression
 **Data Processing**
-1.	The file we have used is time_series_covid_19_confirmed.csv
-2.	First of all we read the file into a dataframe and then restrict the columns till 27/05/2020.
+1.	The file we have used is **time_series_covid_19_confirmed.csv** available on **Kaggle**.
+2.	First of all, we read the file into a dataframe and then restrict the columns till 27/05/2020.
 3.	Find the correlations of Pakistan with all the other countries in the dataframes.
 4.	Pick top 5 countries.
-5.	We extract data of these 5 countries into a separate dataframe.
-6.	We display these trends using Sliding Window Average.
+5.	Extract data of these 5 countries into a separate dataframe.
+6.	Display these trends using Sliding Window Average.
 
 
 **Model Selection and Future Prediction**
-1.	The model we are using is an AutoRegression (Exponential Smoothing) model.
+1.	The model used here is an AutoRegression (Exponential Smoothing) model.
 2.	Our model accepts inputs in the form of Python lists, so we create country-wise lists of data.
 3.	Then we calculate the daily cases from these lists and write them into new lists. 
 4.	We input these daily cases lists into our model, and get output in the form of a list, where each next entry is the number of cases predicted for the corresponding date.
