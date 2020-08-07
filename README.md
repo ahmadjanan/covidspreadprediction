@@ -16,7 +16,9 @@
 The future prediction is done using an AUTOREGRESSION model. It is a simple model with a formula, which provides the next predicted value in a time series. It accepts inputs in the form of lists and outputs a list with predicted values appended to the input list.
 The formula for our model is:
 
-<img align="center" src="/images/formula.jpg" alt="formula">
+<p align="center">
+  <img src="/images/formula.jpg" />
+</p>
 
 5.	First of all, we predict daily cases for each country from 10/05/2020 to 27/05/2020.
 6.	Each new predicted value is used in prediction of the next value.
