@@ -34,5 +34,7 @@ There are some variables which could have greatly increased the accuracy of our 
 2.	Weekend (Yes / No)
 3.	Lockdown Enforcement Severity (Scale of 1 to 5)
 4.	Markets (Open / Closed)
+
 Furthermore, the data collection might have been done unevenly. For example, the number of cases recorded daily might not have been recorded at the same time every day, which might have resulted in lesser values than actual on some days and more values on others.
+
 Considering all these factors, it can be concluded that the output provided by the AutoRegression model seems realistic and is quite commendable.
