@@ -16,14 +16,13 @@
 The future prediction is done using an AUTOREGRESSION model. It is a simple model with a formula, which provides the next predicted value in a time series. It accepts inputs in the form of lists and outputs a list with predicted values appended to the input list.
 The formula for our model is:
 
-![Formula](/images/formula.png)
+![Formula](/images/formula.jpg)
 
 5.	First of all, we predict daily cases for each country from 10/05/2020 to 27/05/2020.
 6.	Each new predicted value is used in prediction of the next value.
 7.	These predictions are displayed on graphs.
 8.	Finally, we predict for 31 days into future from 27/05/2020 to 27/06/2020 using the Pakistan daily cases data, which have been displayed after.
- 
-  
+
 **Findings and Conclusion**
 The COVID-19 disease is spreading with a very fast pace in Pakistan, which is quite unfortunate since it is not spreading with such fast speed in other countries.
 The data available is very primitive and insufficient to make accurate “COVID-19 daily confirmed cases forecasts”. Our model is an AutoRegressor, which applies exponential smoothing. The forecasted values may not be very accurate, but the RMSE values are quite fair considering the haphazard behavior of the spread of COVID-19.
